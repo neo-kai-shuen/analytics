@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: e7563389-a64d-4794-b385-f098fa0ab41d
+      url: 'https://gchism.quarto.pub/info511project'

@@ -1,0 +1,78 @@
+---
+title: "Proposal title"
+subtitle: "Proposal"
+author: 
+  - name: "Team Name"
+    affiliations:
+      - name: "School of Information, University of Arizona"
+description: "Project description"
+format:
+  html:
+    code-tools: true
+    code-overflow: wrap
+    code-line-numbers: true
+    embed-resources: true
+editor: visual
+code-annotations: hover
+execute:
+  warning: false
+jupyter: python3
+---
+
+```{python}
+#| label: load-pkgs
+#| message: false
+import numpy as np
+import seaborn as sns
+```
+
+## Introduction and data
+
+```{python}
+#| label: load-dataset
+#| message: false
+```
+
+For each data set:
+
+- Identify the source of the data.
+
+- State when and how it was originally collected (by the original data curator, not necessarily how you found the data).
+
+- Write a brief description of the observations.
+
+- Address ethical concerns about the data, if any.
+
+Make sure to load the data and use inline code for some of this information.
+
+## Research Question
+
+Your research question should contain at least three variables, and should be a mix of categorical and quantitative variables. When writing a research question, please think about the following:
+
+- What is your target population?
+
+- Is the question original?
+
+- Can the question be answered?
+
+For each data set, include the following:
+
+- A well formulated research question. (You may include more than one research question if you want to receive feedback on different ideas for your project. However, one per data set is required.)
+
+- Statement on why this question is important.
+
+- A description of the research topic along with a concise statement of your hypotheses on this topic.
+
+- Identify the types of variables in your research question. Categorical? Quantitative?
+
+## Glimpse of data
+
+For each data set:
+
+- Place the file containing your data in the data folder of the project repo.
+
+- Use the `.head()` and `.info()` functions to provide a glimpse of the data set.
+
+## Analysis plan
+
+-   A plan for answering each of the questions including the variables involved, variables to be created (if any), external data to be merged in (if any).
