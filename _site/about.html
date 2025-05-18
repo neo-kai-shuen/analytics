@@ -149,12 +149,9 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This project was developed by <strong>[Team Name]</strong> For <a href="https://datasciaz.netlify.app/">INFO 511 - Fundamentals of Data Science</a> at the University of Arizona, taught by Dr.&nbsp;Greg Chism. The team is comprised of the following team members.</p>
+<p>Kai Shuen Neo</p>
 <ul>
-<li><p>Team member 1: One sentence description of Team member 1 (e.g., year, major, etc.).</p></li>
-<li><p>Team member 2: One sentence description of Team member 2 (e.g., year, major, etc.).</p></li>
-<li><p>Team member 3: One sentence description of Team member 3 (e.g., year, major, etc.).</p></li>
-<li><p>Team member 4: One sentence description of Team member 4 (e.g., year, major, etc.).</p></li>
+<li>MS Data Science, University of Arizona</li>
 </ul>
 
 
@@ -396,7 +393,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/neoooks\.github\.io\/analytics\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

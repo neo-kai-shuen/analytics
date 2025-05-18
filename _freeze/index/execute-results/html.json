@@ -1,8 +1,8 @@
 {
-  "hash": "1dd179580bec6b4135d0ac10341615c0",
+  "hash": "ce1387667a5b1100b292c4cef1517760",
   "result": {
     "engine": "jupyter",
-    "markdown": "---\ntitle: \"Project Title\"\nsubtitle: \"INFO 511 - Fall 2024 - Final Project\"\nauthor: \n  - name: \"Team name\"\n    affiliations:\n      - name: \"School of Information, University of Arizona\"\ndescription: \"Project description\"\nformat:\n   html:\n    code-tools: true\n    code-overflow: wrap\n    embed-resources: true\neditor: visual\nexecute:\n  warning: false\n  echo: false\njupyter: python3\n---\n\n\n\n\n## Abstract\n\nAdd project abstract here.\n\n",
+    "markdown": "---\ntitle: \"Data Science\"\nsubtitle: \"Analytics\"\nauthor: \n  - name: \"Kai Shuen Neo\"\n    affiliations:\n      - name: \"School of Information, University of Arizona\"\ndescription: \"Data Science Projects\"\nformat:\n   html:\n    code-tools: true\n    code-overflow: wrap\n    embed-resources: true\neditor: visual\nexecute:\n  warning: false\n  echo: false\njupyter: python3\n---\n\n\n\n\n## Abstract\n\nAdd project abstract here.\n\n",
     "supporting": [
       "index_files/figure-html"
     ],

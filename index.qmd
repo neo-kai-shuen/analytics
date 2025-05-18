@@ -1,11 +1,11 @@
 ---
-title: "Project Title"
-subtitle: "INFO 511 - Fall 2024 - Final Project"
+title: "Data Science"
+subtitle: "Analytics"
 author: 
-  - name: "Team name"
+  - name: "Kai Shuen Neo"
     affiliations:
       - name: "School of Information, University of Arizona"
-description: "Project description"
+description: "Data Science Projects"
 format:
    html:
     code-tools: true
