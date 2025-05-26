@@ -1,3 +1,3 @@
 # Analytics
 
-Repo for Analysis & Data Science projects.
+Data Science Analysis
